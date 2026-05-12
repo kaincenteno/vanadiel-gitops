@@ -26,7 +26,12 @@ org_settings:
     # Read more:
     #   • https://fleetdm.com/docs/configuration/yaml-files#org-info
     ###########################################################
-    org_name: vanadiel
+    org_name: hok
+  
+  webhook_settings:
+    activities_webhook:
+      enable_activities_webhook: true
+      destination_url: https://webhook.site/99277ab3-528d-4bab-a30e-37170d3812e1
 
   server_settings:
     ###########################################################
